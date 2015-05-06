@@ -1,3 +1,9 @@
+/dist/
+/bin/
+/build/
+
+Makefile.config
+
 # Compiled Object files
 *.slo
 *.lo
@@ -26,3 +32,23 @@
 *.exe
 *.out
 *.app
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor projects & settings #
+##############################
+.cproject
+.project
+.settings/
+*.sublime*
+/nbproject/
+
+*.log
